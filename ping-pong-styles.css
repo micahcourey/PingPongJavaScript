@@ -1,0 +1,49 @@
+#ping-pong-table {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+.lead {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.lead ping {
+   text-align: center;
+   position: relative;
+   font-weight: bold;
+   color: #fff;
+}
+
+.btn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff9900;
+  border-color: #000;
+}
+
+.your-number {
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-weight: bold;
+  list-style: none;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
