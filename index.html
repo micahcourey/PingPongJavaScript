@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <img class="background-image" src ="ping-pong-table.jpg" id="ping-pong-table" alt="Photo of ping-pong table">
+  <head>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="ping-pong-styles.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.11.3.js"></script>
+    <script src="ping-pong-script.js"></script>
+    <title>"Ping-Pong"</title>
+  </head>
+  <body>
+    <h1>Number Ping-Pong</h1>
+    <h2>Pick a number, any number</h2>
+
+    <form class="form-inline" id="ping-pong">
+      <div class="your-number">
+        <input type="text" class="form-control" id="yourNumber">
+
+        <button type="submit" class="btn">Serve the numerical ping-pong ball!</button>
+
+        <p class="lead">Multiples of 3 print as <ping>Ping</ping>, multiples of
+        5 print as <ping>Pong</ping> and multiple of 3 and 5 print as <ping>Ping-Pong</ping></p>
+
+        <ul id="numberList"></ul>
+      </div>
+  </body>
+</html>
